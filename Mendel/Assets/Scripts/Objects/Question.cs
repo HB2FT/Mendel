@@ -61,11 +61,11 @@ namespace Mendel.Objects
             }
         }
 
-        public string CorrectAnswer
+        public int CorrectAnswer
         {
             get
             {
-                return answers[correctAnswer];
+                return correctAnswer;
             }
         }
 

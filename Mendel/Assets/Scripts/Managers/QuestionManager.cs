@@ -38,6 +38,12 @@ namespace Mendel.Managers
 
         public void SetCurrentQuestion(int questionIndex)
         {
+            if (questionIndex >= questions.Count)
+            {
+                Debug.Log("Tüm sorular bitti.");
+                return;
+            } 
+
             SetCurrentQuestion(questions[questionIndex]);
         }
 
@@ -50,6 +56,31 @@ namespace Mendel.Managers
             opt2.text = question.Options[1];
             opt3.text = question.Options[2];
             opt4.text = question.Options[3];
+        }
+
+        public void OnAnswer(int buttonIndex)
+        {
+            if (currentQuestionIndex >= questions.Count) return;
+
+            if (buttonIndex == CurrentQuesstion.CorrectAnswer) 
+            {
+                Debug.Log("Doðru");
+            }
+
+            else
+            {
+                Debug.Log("Yanlýþ");
+            }
+
+            SetCurrentQuestion(++currentQuestionIndex);
+        }
+
+        public Question CurrentQuesstion
+        {
+            get
+            {
+                return questions[currentQuestionIndex];
+            }
         }
     }
 }

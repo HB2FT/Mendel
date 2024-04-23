@@ -205,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 87265433}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 137076226}
+        m_TargetAssemblyTypeName: Mendel.Managers.QuestionManager, Assembly-CSharp
+        m_MethodName: OnAnswer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &87265433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1712,7 +1724,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1419732261}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 137076226}
+        m_TargetAssemblyTypeName: Mendel.Managers.QuestionManager, Assembly-CSharp
+        m_MethodName: OnAnswer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1419732261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1833,7 +1857,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1549374973}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 137076226}
+        m_TargetAssemblyTypeName: Mendel.Managers.QuestionManager, Assembly-CSharp
+        m_MethodName: OnAnswer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1549374973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2362,7 +2398,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2127433122}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 137076226}
+        m_TargetAssemblyTypeName: Mendel.Managers.QuestionManager, Assembly-CSharp
+        m_MethodName: OnAnswer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2127433122
 MonoBehaviour:
   m_ObjectHideFlags: 0
